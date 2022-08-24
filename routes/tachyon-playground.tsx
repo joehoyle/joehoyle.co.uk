@@ -12,6 +12,7 @@ export default function Home() {
 		<div className={tw`flex flex-col items-center bg-warmGray-100 min-h-screen`}>
 			<Head>
 				<title>Tachyon Playground - Joe Hoyle</title>
+				<meta name="description" content="This is a tool to experiment with Tachyon image resizing parameter in real-time."></meta>
 			</Head>
 			<Header />
 
