@@ -12,6 +12,7 @@ export default function Home() {
 		<div className={tw`flex flex-col items-center bg-warmGray-100 min-h-screen`}>
 			<Head>
 				<title>Joe Hoyle</title>
+				<meta name="description" content="Personal website of Joe Hoyle, co-founder of Human Made & Altis."></meta>
 			</Head>
 			<Header />
 
