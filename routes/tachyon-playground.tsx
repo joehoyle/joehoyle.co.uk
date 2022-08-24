@@ -21,7 +21,7 @@ export default function Home() {
 			<h2 className={tw`text-2xl mb-6`}>Tachyon Playground</h2>
 			<div className={tw`text-sm max-w-3xl prose`}>
 				<p><a href="https://github.com/humanmade/tachyon/">Tachyon</a> is an on-demand image resizing service. This is a tool to experiment with Tachyon image resizing parameter in real-time.</p>
-				<p>Tachyon runs in AWS Lambda on Node.js, as is a standard part of the <a href="https://www.altis-dxp.com/cloud/">Altis Cloud</a> WordPress hosting platform.</p>
+				<p>Tachyon runs in AWS Lambda on Node.js, and is a standard part of the <a href="https://www.altis-dxp.com/cloud/">Altis Cloud</a> WordPress hosting platform.</p>
 			</div>
 
 			<div className={tw`max-w-4xl my-6`}>
