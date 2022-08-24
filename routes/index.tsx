@@ -5,6 +5,7 @@ import { tw } from "@twind";
 import { Head } from "$fresh/runtime.ts";
 import { PostExcerpt } from "../components/PostExcerpt.tsx";
 import { Footer } from "../components/Footer.tsx";
+import { Header } from "../components/Header.tsx";
 
 export default function Home() {
 	return (
@@ -12,10 +13,7 @@ export default function Home() {
 			<Head>
 				<title>Joe Hoyle</title>
 			</Head>
-			<a href="/">
-				<img className={ tw`rounded-full w-24 shadow-lg mt-12 ring-offset-2 ring-2 ring-warmGray-300` } src="https://en.gravatar.com/userimage/6103/8089514d8a2badb1b3073015e3bc8768.jpg?size=200" />
-				<h1 className={ tw`mt-4 uppercase text-gray-500 tracking-wide mb-10` }>Joe Hoyle</h1>
-			</a>
+			<Header />
 
 			<PostExcerpt
 				title="Tachyon Playground"
