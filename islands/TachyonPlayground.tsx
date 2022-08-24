@@ -19,7 +19,7 @@ export default function TachyonPlayground(props: Props) {
 	const imageRef = useRef<HTMLImageElement>(null);
 	const [ width, setWidth ] = useState(400);
 	const [ height, setHeight ] = useState(400);
-	const [ quality, setQuality ] = useState(100);
+	const [ quality, setQuality ] = useState(80);
 	const [ resize, setResize ] = useState(false);
 	const [ webp, setWebp ] = useState(true);
 	const [ zoom, setZoom ] = useState(1);
@@ -69,7 +69,7 @@ export default function TachyonPlayground(props: Props) {
 						<img
 							ref={imageRef}
 							className={tw`items-center self-center justify-center h-16 shadow rounded ring-2 ${ image === imageUrl ? 'ring-blue-300' : 'ring-gray-200' }`}
-							src={ `${ image }?fit=128,128` }
+							src={ `${ image }?fit=128,128&quality=100` }
 							key={ id }
 							onClick={ () => { setImageUrl( image ); setLoading( true ); } }
 							/>
