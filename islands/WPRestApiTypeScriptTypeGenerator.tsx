@@ -75,7 +75,7 @@ export default function WPRestApiTypeScriptGenerator(props: Props) {
 			</form>
 
 			<div className={tw`relative`}>
-				<button className={tw`absolute ring-1 text-sm ring-gray-100 rounded-full py-2 px-5 top-2 right-2 hover:shadow hover:ring-gray-200`} onClick={ onCopy }>{ isCopied ? 'Copied!': 'Copy to Clipboard' }</button>
+				<button className={tw`absolute ring-1 text-sm ring-gray-100 bg-white rounded-full py-2 px-5 top-2 right-2 hover:shadow hover:ring-gray-200`} onClick={ onCopy }>{ isCopied ? 'Copied!': 'Copy to Clipboard' }</button>
 				{ loading && (
 					<div className={tw`inset-0 absolute flex items-center justify-center bg-white bg-opacity-80 z-10 fill-blue-600`}>
 						<svg aria-hidden="true" class={tw`w-8 h-8 text-white animate-spin fill-blue-600`} viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
