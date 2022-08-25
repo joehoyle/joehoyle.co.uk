@@ -2,6 +2,7 @@
 import { h, JSX } from "preact";
 import { useEffect, useState, useRef } from "preact/hooks";
 import { tw } from "@twind";
+import { Head } from "$fresh/runtime.ts";
 import hljs from 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/es/highlight.min.js';
 import ts from 'https://unpkg.com/@highlightjs/cdn-assets@11.6.0/es/languages/typescript.min.js';
 
@@ -59,6 +60,9 @@ export default function WPRestApiTypeScriptGenerator(props: Props) {
 
 	return (
 		<div className={tw`flex w-full flex-col`}>
+			<Head>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css"></link>
+			</Head>
 			<form className={tw`mb-4 self-center`} onSubmit={e => onSubmit(e)}>
 				<label for="site-url" className={tw`mb-1 block font-medium text-gray-700`}>Site URL</label>
 				<div className={tw`flex space-x-4`}>
