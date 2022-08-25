@@ -1,6 +1,6 @@
 /** @jsx h */
 import { h, JSX } from "preact";
-import { useEffect, useState, useRef } from "preact/hooks";
+import { useState } from "preact/hooks";
 import { tw } from "@twind";
 import { Head } from "$fresh/runtime.ts";
 import hljs from 'https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/es/highlight.min.js';

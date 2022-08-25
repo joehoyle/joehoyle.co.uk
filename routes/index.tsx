@@ -1,6 +1,6 @@
 /** @jsx h */
 /** @jsxFrag Fragment */
-import { h, Fragment } from "preact";
+import { h } from "preact";
 import { tw } from "@twind";
 import { Head } from "$fresh/runtime.ts";
 import { PostExcerpt } from "../components/PostExcerpt.tsx";
