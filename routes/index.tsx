@@ -17,6 +17,12 @@ export default function Home() {
 			<Header />
 
 			<PostExcerpt
+				title="WP REST API TypeScript Generator"
+				url="/wp-rest-api-typescript/"
+				content="A tool to generate TypeScript types file from your site's WordPress REST API. Enter your WordPress site's URL and download the type definitions."
+			/>
+
+			<PostExcerpt
 				title="Tachyon Playground"
 				url="/tachyon-playground/"
 				content="Tachyon is an on-demand image resizing service. This is a tool to experiment with Tachyon image resizing parameter in real-time."

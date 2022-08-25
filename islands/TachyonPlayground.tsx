@@ -102,28 +102,28 @@ export default function TachyonPlayground(props: Props) {
 					<div className={tw`flex space-x-4`}>
 						<div className={ tw`mb-4` }>
 							<label for="width" className={ tw`mb-1 block text-xs font-medium text-gray-700` }>Max Width (<code>w</code>)</label>
-							<input type="text" name="width" id="width" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ width } onChange={ e => setWidth( e.target.value ) } />
+							<input type="text" name="width" id="width" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ width } onInput={ e => setWidth( e.target.value ) } />
 						</div>
 
 						<div className={ tw`mb-4` }>
 							<label for="height" className={ tw`mb-1 block text-xs font-medium text-gray-700` }>Max Height (<code>h</code>)</label>
-							<input type="text" name="height" id="height" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ height } onChange={ e => setHeight( e.target.value ) } />
+							<input type="text" name="height" id="height" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ height } onInput={ e => setHeight( e.target.value ) } />
 						</div>
 					</div>
 					<div className={ tw`mt-1 mb-4 flex` }>
-						<input type="checkbox" name="resize" id="resize" className={ tw`focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded mr-2`} checked={ resize } onChange={ e => setResize( e.target.checked ) } />
+						<input type="checkbox" name="resize" id="resize" className={ tw`focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded mr-2`} checked={ resize } onInput={ e => setResize( e.target.checked ) } />
 						<label for="resize" className={ tw`block text-xs font-medium text-gray-700` }>Resize (<code>resize</code>)</label>
 					</div>
 
 					<div className={ tw`mt-1 mb-4 flex` }>
-						<input type="checkbox" name="webp" id="webp" className={ tw`focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded mr-2`} checked={ webp } onChange={ e => setWebp( e.target.checked ) } />
+						<input type="checkbox" name="webp" id="webp" className={ tw`focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded mr-2`} checked={ webp } onInput={ e => setWebp( e.target.checked ) } />
 						<label for="webp" className={ tw`block text-xs font-medium text-gray-700` }>WebP (<code>webp</code>)</label>
 					</div>
 
 					<div className={ tw`mb-4` }>
 						<label for="height" className={ tw`mb-1 block text-xs font-medium text-gray-700` }>Crop gravity (<code>gravity</code>)</label>
 
-						<select disabled={ ! resize } name="height" id="height" className={ tw`disabled:opacity-50 py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ gravity } onChange={ e => setGravity( e.target.value ) }>
+						<select disabled={ ! resize } name="height" id="height" className={ tw`disabled:opacity-50 py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ gravity } onInput={ e => setGravity( e.target.value ) }>
 							<option value="center">Center</option>
 							<option value="north">North</option>
 							<option value="northeast">North East</option>
@@ -138,12 +138,12 @@ export default function TachyonPlayground(props: Props) {
 
 					<label for="quality" className={ tw`block text-xs font-medium text-gray-700` }>Quality (<code>quality</code>)</label>
 					<div className={ tw`mt-1 mb-4` }>
-						<input type="number" min={0} max={100} name="quality" id="quality" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ quality } onChange={ e => setQuality( e.target.value ) } />
+						<input type="number" min={0} max={100} name="quality" id="quality" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ quality } onInput={ e => setQuality( e.target.value ) } />
 					</div>
 
 					<label for="zoom" className={ tw`block text-xs font-medium text-gray-700` }>Zoom (<code>zoom</code>)</label>
 					<div className={ tw`mt-1 mb-4` }>
-						<input type="number" min={0} max={100} name="zoom" id="zoom" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ zoom } onChange={ e => setZoom( e.target.value ) } />
+						<input type="number" min={0} max={100} name="zoom" id="zoom" className={ tw`py-1 px-2 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full border-gray-300 rounded-md`} value={ zoom } onInput={ e => setZoom( e.target.value ) } />
 					</div>
 				</div>
 			</div>
