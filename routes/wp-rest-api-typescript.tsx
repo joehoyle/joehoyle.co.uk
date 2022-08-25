@@ -13,7 +13,6 @@ export default function WP_REST_API_TypeScript() {
 			<Head>
 				<title>WP REST API TypeScript Generator - Joe Hoyle</title>
 				<meta name="description" content="This is a tool to generate TypeScript definitions for a WordPress REST API's types and routes."></meta>
-				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github.min.css"></link>
 			</Head>
 			<Header />
 
