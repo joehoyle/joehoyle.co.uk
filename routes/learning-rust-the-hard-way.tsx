@@ -21,7 +21,7 @@ export default function LearningRustTheHardWay() {
 			<h2 className={tw`text-2xl mb-6`}>PHP-Deno: Learning Rust the Hard Way</h2>
 			<div className={tw` max-w-3xl prose`}>
 				<p className={tw`text-center`}>
-					<img className={tw`max-w-md inline`} src={asset("/learning-rust-the-hard-way.png")} alt="Image showing Rust, PHP, Deno and V8 logos smashed together." />
+					<img className={tw`max-w-sm p-5 inline`} src={asset("/learning-rust-the-hard-way.png")} alt="Image showing Rust, PHP, Deno and V8 logos smashed together." />
 				</p>
 				<p>For several years I've been interested in the edge-computing “v8 isolates everywhere” approach to building web applications and the like. From a software perspective, I think the idea is enticing: lightweight JavaScript that is secure, simple and fast. Easy to deploy (with things like Deno Deploy), cheap (serverless) and portable (largely.)</p>
 
