@@ -17,6 +17,12 @@ export default function Home() {
 			<Header />
 
 			<PostExcerpt
+				title="PHP-Deno: Learning Rust the Hard Way"
+				url="/learning-rust-the-hard-way/"
+				content="For several years I've been interested in the edge-computing “v8 isolates everywhere” approach to building web applications and the like. From a software perspective, I think the idea is enticing: lightweight JavaScript that is secure, simple and fast. Easy to deploy, cheap and portable."
+			/>
+
+			<PostExcerpt
 				title="WP REST API TypeScript Generator"
 				url="/wp-rest-api-typescript/"
 				content="A tool to generate TypeScript types file from your site's WordPress REST API. Enter your WordPress site's URL and download the type definitions."
