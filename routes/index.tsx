@@ -9,7 +9,7 @@ import { Header } from "../components/Header.tsx";
 
 export default function Home() {
 	return (
-		<div className={tw`flex flex-col items-center bg-warmGray-100 min-h-screen`}>
+		<div className={tw`flex flex-col items-center bg-warmGray-100 p-5 min-h-screen`}>
 			<Head>
 				<title>Joe Hoyle</title>
 				<meta name="description" content="Personal website of Joe Hoyle, co-founder of Human Made & Altis."></meta>
