@@ -6,7 +6,7 @@ import { tw } from "@twind";
 export function Footer() {
 	return (
 		<>
-			<div className={tw`w-96 p-6 shadow-xl -rotate-1 rounded-lg ring-1 ring-gray-200 flex flex-col items-center mt-8 mb-12`}>
+			<div className={tw`w-96 p-6 shadow-xl -rotate-1 rounded-lg ring-1 ring-gray-200 flex flex-col items-center mt-12 mb-12`}>
 				<span className={tw`text-sm`}>Follow me on twitter to get future updates</span>
 				<a href="https://twitter.com/joe_hoyle" className={tw`mt-4 rounded-full bg-blue-500 px-5 py-2 text-white`}>@joe_hoyle</a>
 			</div>
