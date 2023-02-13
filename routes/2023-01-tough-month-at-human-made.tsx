@@ -19,7 +19,7 @@ export default function LearningRustTheHardWay() {
 
             <h2 className={tw`text-2xl mb-6`}>Tough Month at Human Made</h2>
             <div className={tw`max-w-3xl prose`}>
-                <p>The passed few weeks have been a whilwind at <a href="https://humanmade.com/">Human Made</a>. We made the difficult decision to downsize the company to meet the customer demand we have been able to generate, rather than what we had planned for.</p>
+                <p>The passed few weeks have been a whilwind at <a href="https://humanmade.com/">Human Made</a>. We made the decision to downsize the company to meet the customer demand we have been able to generate, rather than what we had planned for.</p>
 
                 <p>Tom has provided <a href="https://tõm.com/redundancies-at-human-made/">a few more details</a>, too.</p>
 
