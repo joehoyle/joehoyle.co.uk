@@ -19,7 +19,7 @@ export default function Home() {
 			<PostExcerpt
 				title="Tough Month at Human Made"
 				url="/2023-01-tough-month-at-human-made/"
-				content="For several years I've been interested in the edge-computing “v8 isolates everywhere” approach to building web applications and the like. From a software perspective, I think the idea is enticing: lightweight JavaScript that is secure, simple and fast. Easy to deploy, cheap and portable."
+				content="The passed few weeks have been a whilwind at Human Made. We made the decision to downsize the company to meet the customer demand we have been able to generate, rather than what we had planned for."
 			/>
 
 			<PostExcerpt
