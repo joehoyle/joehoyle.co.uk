@@ -21,7 +21,7 @@ export default function MovingToQuebec() {
 			<div className={tw` max-w-3xl prose`}>
 				<p className={tw`text-center text-gray-500`}>Septemeber, 2024</p>
 				<p className={tw`text-center`}>
-					<img className={tw`max-w-sm p-5 inline`} src={asset("/quebec.jpg")} alt="Image showing Rust, PHP, Deno and V8 logos smashed together." />
+					<img className={tw`max-w-sm p-5 inline`} src={asset("/quebec.jpg")} alt="Iris versicolor - floral emblem of Quebec." />
 				</p>
 				<p>Recently I moved to the beautiful countryside of Quebec, Canada. That means working from a new, non-european time zone, so more crossover with my americas colleagues. It should also mean easier travel to North American ervents and meetups, the first of which will be WordCamp US in Septemeber 2024!</p>
 				<p>If you're going to be in Quebec, let me know!</p>
