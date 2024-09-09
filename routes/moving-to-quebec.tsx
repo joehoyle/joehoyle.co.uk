@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer.tsx";
 import { Header } from "../components/Header.tsx";
 import { asset } from "$fresh/runtime.ts";
 
-export default function LearningRustTheHardWay() {
+export default function MovingToQuebec() {
 	return (
 		<div className={tw`flex flex-col items-center bg-warmGray-100 min-h-screen p-5`}>
 			<Head>
