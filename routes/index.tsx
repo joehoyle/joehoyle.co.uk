@@ -17,6 +17,12 @@ export default function Home() {
 			<Header />
 
 			<PostExcerpt
+				title="Moving to Quebec"
+				url="/moving-to-quebec/"
+				content="Recently I moved to the beautiful countryside of Quebec, Canada. That means working from a new, non-european time zone, so more crossover with my americas colleagues. It should also mean easier travel to North American ervents and meetups, the first of which will be WordCamp US in Septemeber 2024!"
+			/>
+
+			<PostExcerpt
 				title="Tough Month at Human Made"
 				url="/2023-01-tough-month-at-human-made/"
 				content="The passed few weeks have been a whilwind at Human Made. We made the decision to downsize the company to meet the customer demand we have been able to generate, rather than what we had planned for."

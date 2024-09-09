@@ -1,0 +1,20 @@
+{
+  "version": "3",
+  "remote": {
+    "https://deno.land/x/fresh@1.0.2/runtime.ts": "b02ec1e2e32cf73a33d262b7c9dcab9468ce16cd89fd424196c71003698a4ab0",
+    "https://deno.land/x/fresh@1.0.2/src/runtime/csp.ts": "9ee900e9b0b786057b1009da5976298c202d1b86d1f1e4d2510bde5f06530ac9",
+    "https://deno.land/x/fresh@1.0.2/src/runtime/head.ts": "0f9932874497ab6e57ed1ba01d549e843523df4a5d36ef97460e7a43e3132fdc",
+    "https://deno.land/x/fresh@1.0.2/src/runtime/utils.ts": "8320a874a44bdd5905c7d4b87a0e7a14a6c50a2ed133800e72ae57341e4d4faa",
+    "https://esm.sh/@twind/typography@0.0.2": "a319c9244fc52cd2015887d7fe60529e8876f3194dcf710e9b618a3791d4f377",
+    "https://esm.sh/preact@10.10.0": "bd3f413ed28d4efe86576849f6fe3c751bc06a56d402844a1cb6851cf7242ad5",
+    "https://esm.sh/preact@10.10.0/hooks": "3fde868dbb3b3b77574d099a029dd240a3ff4d848a5faf0209c4069710d21813",
+    "https://esm.sh/stable/preact@10.10.0/denonext/hooks.js": "630a8f3d9ede877133ffa487286212a653d1b1907ffff07d54a0138150863a80",
+    "https://esm.sh/stable/preact@10.10.0/denonext/preact.mjs": "69c987d44b40e1dcc0a97ac9aadc681c5807f5425c556c8f3a0f15f5844cf1d0",
+    "https://esm.sh/twind@0.16.17": "e9d05cb1e7a4ccb5b44c4409415bc02c26822a548c7ac8c2f227c11fcb124c89",
+    "https://esm.sh/twind@0.16.17/colors": "9b9e5e8f186c36c84abba68008ff4c09af1d442009b468164cded4621b58ab31",
+    "https://esm.sh/v135/@twind/typography@0.0.2/denonext/typography.mjs": "c9b538969052499e97ff399c38d97d7eeea3014ddb9f2abf11d22f146198a2e4",
+    "https://esm.sh/v135/style-vendorizer@2.2.3/denonext/style-vendorizer.mjs": "121455e7b04b631ef6463ce63cdcd29febd74d88c37713c774ceca8a1561c83d",
+    "https://esm.sh/v135/twind@0.16.17/denonext/colors.js": "bd0d2b2695534768cd2c60c93b2f0b3d34ac92d6f00a38c0d416b44ffd87aa9a",
+    "https://esm.sh/v135/twind@0.16.17/denonext/twind.mjs": "6aa3dcacb083937bb654cf6a50e74270fa12ad8b9205a097324c467f55752188"
+  }
+}
