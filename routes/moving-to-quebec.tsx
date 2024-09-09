@@ -19,6 +19,7 @@ export default function MovingToQuebec() {
 
 			<h2 className={tw`text-2xl mb-6`}>Moving to Quebec</h2>
 			<div className={tw` max-w-3xl prose`}>
+				<p className={tw`text-center text-gray-500`}>Septemeber, 2024</p>
 				<p className={tw`text-center`}>
 					<img className={tw`max-w-sm p-5 inline`} src={asset("/quebec.jpg")} alt="Image showing Rust, PHP, Deno and V8 logos smashed together." />
 				</p>
